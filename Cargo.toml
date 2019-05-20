@@ -1,0 +1,15 @@
+[package]
+name = "HebMorphParser"
+version = "0.1.0"
+authors = ["David James McCorrie <david@machshev.co.uk>"]
+edition = "2018"
+
+[lib]
+name = "hmlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hmparser"
+path = "src/main.rs"
+
+[dependencies]
